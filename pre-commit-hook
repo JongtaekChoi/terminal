@@ -1,0 +1,4 @@
+#!/bin/sh
+STAGED_FILES=($(git diff --cached --name-only --diff-filter=ACM|grep ".[jt]sx*$"))
+
+yarn eslint --fix "${STAGED_FILES[@]}"
