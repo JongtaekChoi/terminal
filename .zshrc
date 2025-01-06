@@ -118,4 +118,4 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-alias code='open -b com.microsoft.VSCode "$@"'
+alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
